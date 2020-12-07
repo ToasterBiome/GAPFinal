@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.jimmycushnie.noisynodes": "https://github.com/JimmyCushnie/Noisy-Nodes.git",
     "com.unity.collab-proxy": "1.3.7",
     "com.unity.ext.nunit": "1.0.0",
     "com.unity.ide.rider": "1.2.1",
@@ -41,5 +42,11 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
+  },
+  "lock": {
+    "com.jimmycushnie.noisynodes": {
+      "revision": "HEAD",
+      "hash": "08fdfd310fe98990ef5a2c3dc908562ba2a784e9"
+    }
   }
 }
