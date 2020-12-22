@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-4037957973887190673
+--- !u!114 &-4833448146175920415
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Planet Material
+  m_Name: Funky Planet
   m_Shader: {fileID: -6465566751694194690, guid: 1e760aa8029ecbf499b7b305dbc3a688,
     type: 3}
   m_ShaderKeywords: 
@@ -33,8 +33,8 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_D7C9B6D7:
-        m_Texture: {fileID: 2800000, guid: ca4d9b2f78cef5b4cb42090907a8948b, type: 3}
+    - Texture2D_79C6A8F3:
+        m_Texture: {fileID: 2800000, guid: 9c26da3674244fa45934ffe789540a16, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -66,7 +66,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_4D18FDFA: 0.15
+    - Vector1_6528FCD3: 0.025
+    - Vector1_78CB1116: 3
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -89,7 +90,11 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+    - Color_2369925A: {r: 1, g: 1, b: 1, a: 1}
+    - Color_72B7B11A: {r: 0, g: 0.02745098, b: 1, a: 1}
+    - Color_BDD4C716: {r: 0.42352936, g: 1, b: 0, a: 1}
     - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+  m_BuildTextureStacks: []
